@@ -33,7 +33,7 @@
 
 
         <div class = "text-center" id = 'menu'>
-          <h2> <a href = "{{ site.url }}/about">About </a>|<a href = "{{ site.url }}PROJ"> Projects </a>|<a href = "#"><strong> Photos </strong></a>| <a href = "{{ site.url }}MORE"> More </a></h2>
+          <h2> <a href = "{{ site.url }}/about">About </a>|<a href = "{{ site.url }}/PROJ"> Projects </a>|<a href = "#"><strong> Photos </strong></a>| <a href = "{{ site.url }}/MORE"> More </a></h2>
           <br>
         </div>
 
@@ -61,7 +61,7 @@
         </div>
          <div class="cartodb-popup-content-wrapper">
            <div class="cartodb-popup-content">
-             <a href = "#{{content.data.name}}"><img style="width: 100%" src="img/{{content.data.name}}.jpg"></a><h4>{{content.data.description}}</h4>
+             <a href = "#{{content.data.name}}"><img style="width: 100%" src="{{ site.url }}/img/{{content.data.name}}.jpg"></a><h4>{{content.data.description}}</h4>
              <!-- content.data contains the field info -->
              <h4>{{content.data.description}}</h4>
            </div>
@@ -145,8 +145,8 @@
 <div class = "row text-center">
 <ul class = "small-block-grid-1 medium-block-grid-2 large-block-grid-3 text-center" data-clearing>
  
- <li> <a href="/img/Asilah.jpg" class="th radius" name = 'Asilah'><img src="/img/Asilah.jpg"></a><figcaption> Asilah, Morocco</figcaption></li>
- <li> <a href="/img/Face.jpg" class="th radius" name = 'Face'><img src="/img/Face.jpg"></a><figcaption> Face, Philadelphia, PA</figcaption></li>
+ <li> <a href="{{ site.url }}/img/Asilah.jpg" class="th radius" name = 'Asilah'><img src="{{ site.url }}/img/Asilah.jpg"></a><figcaption> Asilah, Morocco</figcaption></li>
+ <li> <a href="{{ site.url }}/img/Face.jpg" class="th radius" name = 'Face'><img src="{{ site.url }}/img/Face.jpg"></a><figcaption> Face, Philadelphia, PA</figcaption></li>
  <li> <a href="{{ site.url }}/img/Garden.jpg" class="th radius" name = "Garden"><img src="{{ site.url }}/img/Garden.jpg"></a><figcaption> Granada, Spain</figcaption></li>
  <li> <a href="{{ site.url }}/img/Lacing.jpg" class="th radius" name = "Lacing"><img src="{{ site.url }}/img/Lacing.jpg"></a><figcaption> Coffee Lacing, Pittsburgh, PA</figcaption></li>
 
