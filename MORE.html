@@ -10,19 +10,19 @@ layout: morelay
         <div class="example1">
           <div class = "row text-center">
                <div id = "pdf">
-                <object data="/pdfs/Resume.pdf"  
+                <object data="{{ site.url }}/pdfs/Resume.pdf"  
                         type='application/pdf' 
                         width='100%' 
                         height='100%'>
 
                 <p>It appears your Web browser is not configured to display PDF files. 
-                No worries, just <a href = "/pdfs/Resume.pdf">click here to get the PDF file.</a></p>
+                No worries, just <a href = "{{ site.url }}/pdfs/Resume.pdf">click here to get the PDF file.</a></p>
 
                 </object>
         </div>
 
 
-        <p id = "ref" class = "text-center"> Download my resume <a href = "/pdfs/Resume.pdf"> here <i class = "fi-paperclip"></i></a> </p>
+        <p id = "ref" class = "text-center"> Download my resume <a href = "{{ site.url }}/pdfs/Resume.pdf"> here <i class = "fi-paperclip"></i></a> </p>
             
         </div>
       </div>
