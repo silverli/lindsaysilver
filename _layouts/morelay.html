@@ -1,0 +1,73 @@
+    {% include header.html %}
+        <title>LS | More </title>
+       <link href="/css/more.css" rel="stylesheet">
+    
+   
+  </head>
+ 
+  <body>
+ 
+   
+    <div class="container">
+
+ 
+    <h1 class = "text-center show-for-medium-up" id = "header">
+      <a href ="/"> { Lindsay Silver } </a></h1>
+
+    <h1 class = "text-center hide-for-medium-up" id = "header">
+      <a href ="/"> <img src = "/img/smalllogo.png"> </a></h1>
+
+
+  
+  
+
+
+    <div class = "text-center" id = 'menu'>
+      <h2> <a href = "/about">About </a>|<a href = "/proj"> Projects </a>|<a href = "/photos.html"> Photos </a>| <strong><a href = "#"> More </a></strong></h2>
+
+    </div>
+
+    {% include zigzag.html %}
+ 
+      {{ content }}
+
+    {% include zigzag.html %}
+
+
+     <br>
+
+     </div>
+
+<div class = "row">
+	<div id ='silly' class = "text-center">
+  <h3>&copy;2015 Lindsay Silver <a href = "https://github.com/silverli"><i class="fi-social-github"></i></a> <a href = "https://www.linkedin.com/profile/view?id=AAMAABgSA_gBlCGP2hg9-Yy-ZQiT-SpTK4SHGb0&trk=hp-identity-name"><i class="fi-social-linkedin"></i></a>  </h3>
+	</div>
+</div>
+    
+
+    <script src="/js/vendor/jquery.js"></script>
+    <script src="/js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+      $(document).ready(function() {
+    $('.example1').hide().before('<a href="#" id="toggle-example1" class = "button large radius">Resume</a>');
+    $('a#toggle-example1').click(function() {
+        $('.example1').toggle();
+        return false;
+    });
+      $('.example2').hide().before('<a href="#" id="toggle-example2"><i class = "fi-social-github"></i></a>');
+    $('a#toggle-example2').click(function() {
+        $('.example2').toggle();
+        return false;
+    });
+  $('.example3').hide().before('<a href="#" id="toggle-example3"><i class = "fi-social-linkedin"></i></a>');
+    $('a#toggle-example3').click(function() {
+        $('.example3').toggle();
+        return false;
+    });
+});
+    </script>
+  </body>
+</html>
+ 
+    
