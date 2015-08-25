@@ -4,17 +4,17 @@ layout: default
 
 
 <title>LS | About </title>
-    <link href="{{ site.url }}/css/about.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}/css/about.css" rel="stylesheet">
     
    
   </head>
  
   <body>
     <h1 class = "text-center show-for-medium-up" id = "header">
-     <a href ="/"> { Lindsay Silver } </a></h1>
+     <a href ="{{ site.baseurl }}"> { Lindsay Silver } </a></h1>
 
       <h1 class = "text-center hide-for-medium-up" id = "header">
-     <a href ="/"> <img src = "{{ site.url }}/img/smalllogo.png"> </a></h1>
+     <a href ="{{ site.baseurl }}"> <img src = "{{ site.baseurl }}/img/smalllogo.png"> </a></h1>
 
 
   
@@ -22,7 +22,7 @@ layout: default
 
 
         <div class = "text-center" id = 'menu'>
-          <h2> <a href = "#"><strong>About </strong></a>|<a href = "/proj"> Projects </a>|<a href = "/photos.html"> Photos </a>| <a href = "/more"> More </a></h2>
+          <h2> <a href = "#"><strong>About </strong></a>|<a href = "{{ site.baseurl }}proj"> Projects </a>|<a href = "{{ site.baseurl }}photos.html"> Photos </a>| <a href = "{{ site.baseurl }}more"> More </a></h2>
 
         </div>
 
@@ -71,7 +71,7 @@ layout: default
         <div class = "row">
             <br>
             <div class = "large-5 medium-6 small-12 columns">
-                <img src = "{{ site.url }}/img/grad.jpg">
+                <img src = "{{ site.baseurl }}/img/grad.jpg">
                 
             </div>
             <div class = "large-7 medium-6 small-12 columns" id = "row4">
