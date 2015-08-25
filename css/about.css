@@ -18,6 +18,11 @@ a {
 
  }
 
+ #row4 p {
+  font-family: "EB Garamond";
+  font-size: 22px;
+ }
+
   svg {
     margin-top: 10px;
     margin-bottom: 20px;
