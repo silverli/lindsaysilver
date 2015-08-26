@@ -61,7 +61,7 @@
         </div>
          <div class="cartodb-popup-content-wrapper">
            <div class="cartodb-popup-content">
-             <a href = "#{{content.data.name}}"><img style="width: 100%" src="/img/{{content.data.name}}.jpg"></a><h4>{% raw %}{{content.data.description}}{% endraw %}</h4>
+             <a href = {% raw %}"#{{content.data.name}}"{% endraw %}><img style="width: 100%" src={% raw %}"/img/{{content.data.name}}.jpg"{% endraw %}></a>
              
              
            </div>
