@@ -42,7 +42,7 @@
 <div id = "descript">
   <div class = "row">
 <h1> Photo Places Map </h1>
-<h5> Using CartoDB, I made a map of all the places the photos on this page were taken.  Feel free to play around on the map and click the image in the location to bring you to the original image. </h5>
+<h5> Using CartoDB, I made a map of all the places the photos on this page were taken.  Feel free to look around the map and then click the image in the location to bring you to the original image. </h5>
   </div>
   <br>
 </div>
@@ -55,19 +55,21 @@
         <div class="cartodb-popup header blue v2">
         <a href="#close" class="cartodb-popup-close-button close">x</a>
         <div class = "cartodb-popup-header">
-          <h4>{{content.data.name}}</h4>
+          <h4>{% raw %}{{content.data.name}}{% endraw %}</h4>
           
           <span class = "separator"></span>
         </div>
          <div class="cartodb-popup-content-wrapper">
            <div class="cartodb-popup-content">
-             <a href = "#{{content.data.name}}"><img style="width: 100%" src="/img/{{content.data.name}}.jpg"></a><h4>{{content.data.description}}</h4>
+             <a href = "#{{content.data.name}}"><img style="width: 100%" src="/img/{{content.data.name}}.jpg"></a><h4>{% raw %}{{content.data.description}}{% endraw %}</h4>
              
-             <h4>{{content.data.description}} <a href = "#{{content.data.name}}">{{content.data.name}}</a></h4>
+             
            </div>
          </div>
          <div class="cartodb-popup-tip-container"></div>
       </div>
+
+
     </script>
 
     <script src="http://libs.cartodb.com/cartodb.js/v3/3.15/cartodb.js"></script>
@@ -159,7 +161,7 @@
  <li> <a href="{{ site.url }}/img/Lilacs.jpg" class="th radius" name = "Lilacs"><img src="{{ site.url }}/img/Lilacs.jpg"></a><figcaption> Lilacs, Wellfleet, MA</figcaption></li>
  <li> <a href="{{ site.url }}/img/Chica.jpg" class="th radius" name = "Chica"><img src="{{ site.url }}/img/Chica.jpg"></a><figcaption> Chica de la Feria, Seville, Spain</figcaption></li>
  <li> <a href="{{ site.url }}/img/Coffee.jpg" class="th radius" name = "Coffee"><img src="{{ site.url }}/img/Coffee.jpg"></a><figcaption> Philadelphia, PA</figcaption></li>
- <li> <a href="{{ site.url }}/img/Ship.jpg" class="th radius" name = "Ship"><img src="{{ site.url }}/img/Ship.jpg"></a><figcaption> Provincetown, PA</figcaption></li>
+ <li> <a href="{{ site.url }}/img/ship.jpg" class="th radius" name = "Ship"><img src="{{ site.url }}/img/ship.jpg"></a><figcaption> Provincetown, PA</figcaption></li>
  
 
 <li> <a href="{{ site.url }}/img/Warehouse.jpg" class="th radius" name = "Warehouse"><img src="{{ site.url }}/img/Warehouse.jpg"></a><figcaption> Brooklyn, NY</figcaption></li>
