@@ -23,6 +23,11 @@ a {
   
  }
 
+ img {
+  border-radius: 35px;
+}
+
+
   svg {
     margin-top: 10px;
     margin-bottom: 20px;
