@@ -1,0 +1,98 @@
+/* css styles for HOME.html */
+body {
+    background-color: #f5f8fe;
+}
+
+a {
+  color: #0A47C3;
+}
+
+ h1 a{
+
+    font-family: "Jacques Francois Shadow";
+    color: #0A47C3;
+    font-size: 50px;
+
+ }
+
+ svg {
+    margin-top: 10px;
+    margin-bottom: 20px;
+ }
+
+ .zigzag line {
+    stroke: #0A47C3;
+    stroke-width: 3;
+
+ }
+
+
+  #menu h2 {
+    padding-top: 20px;
+    font-family: "Cinzel";
+    color: #0A47C3;
+    font-size: 22px;
+ }
+
+ #menu h2 a{
+    font-family: "Cinzel";
+    color: #0A47C3;
+    font-size: 22px;
+ 
+ }
+
+ .overlay-container {
+    position: relative;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+  }
+
+ .overlay-container .overlay1 {
+
+    position: absolute; 
+    bottom: 0px;         
+    left: 100px;            
+    right: 0px; 
+    top: 36px;
+    text-align: left;
+    color: #0A47C3; /* pretty color of blue#7082A6 */
+    font-family: "Sacramento";
+    font-size: 100px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#large img {
+
+    width: 80%;
+}
+
+ 
+
+
+ #wave {
+	margin-left: auto;
+	margin-right: auto;
+	left:0;
+	right:0;
+	
+	
+}
+
+#silly h3 {
+    font-family: "Cinzel";
+    color: #0A47C3;
+    display: inline;
+    vertical-align: bottom;
+    text-align: center;
+}
+
+.fi-social-github {
+   font-size: 26px
+}
+
+.fi-social-linkedin {
+   font-size: 26px
+}
+

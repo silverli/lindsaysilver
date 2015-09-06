@@ -1,0 +1,98 @@
+/* custom css for projects pages (LindsayQMH.html and LindsayPERS.html) */
+
+body {
+    background-color: #f5f8fe;
+}
+
+a {
+  color: #0A47C3;
+}
+
+h1 a{
+
+    font-family: "Jacques Francois Shadow";
+    color: #0A47C3;
+    font-size: 50px;
+
+ }
+ 
+
+ svg {
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+
+ .zigzag line {
+    stroke: #0A47C3;
+    stroke-width: 3;
+
+ }
+
+
+ 
+  #menu h2 {
+    padding-top: 20px;
+    font-family: "Cinzel";
+    color: #0A47C3;;
+    font-size: 22px;
+    padding-bottom: 15px;
+   
+ }
+
+ #menu h2 a{
+    font-family: "Cinzel";
+    color: #0A47C3;
+    font-size: 22px;
+
+}
+
+#row1 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	
+}
+
+#row1 h2 {
+	font-family: "Jacques Francois";
+	color: #02215F;
+
+}
+
+#row1 p {
+	font-family: "EB Garamond";
+	color: #02215F;
+}
+
+#row2 {
+	padding-top: 15px;
+}
+
+#row2 h6 {
+	padding-bottom: 10px;
+	font-family: "Walter Turncoat";
+	color: #02215F;
+    font-size: 22px;
+}
+
+#silly {
+
+	
+	padding-top: 15px;
+}
+
+#silly h3 {
+    font-family: "Cinzel";
+    color: #0A47C3;
+    display: inline;
+    vertical-align: bottom;
+    text-align: center;
+
+}
+
+.fi-social-github {
+   font-size: 26px
+}
+
+.fi-social-linkedin {
+   font-size: 26px
+}
