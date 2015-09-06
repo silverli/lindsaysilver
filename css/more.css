@@ -1,0 +1,156 @@
+/* custom CSS for MORE.css */
+
+
+
+body {
+    background-color: #f5f8fe;
+}
+a {
+  color: #0A47C3;
+}
+
+#pdf {
+    margin: 1em auto;
+    border: 10px solid #707070;
+    width: 300px;
+    height: 400px;
+    background-color: #f5f8fe;
+}
+
+ h1 a{
+
+    font-family: "Jacques Francois Shadow";
+    color: #0A47C3;
+    font-size: 50px;
+
+ }
+
+
+a#toggle-example1.button {
+ 
+  font-family: "Elsie";
+  font-style: bold;
+  padding-top: 1.6em;
+  margin-top: 75px;
+  border-radius: 100px;
+  height: 185px;
+  font-size:45px;
+  padding-left: 0.25em;
+  padding-right: 1em;
+  background: #84a3e1;
+  color: white;
+  width: 185px;
+  box-shadow: 6px 6px 5px #333333;
+  
+}
+
+
+a#toggle-example2 {
+  color: #84a3e1;
+  
+}
+
+.example1 p {
+  font-family: "EB Garamond";
+  font-size: 22px;
+  color: navy;
+  text-align: left;
+  padding-top: 60px;
+  
+}
+
+.example2 p {
+  font-family: "EB Garamond";
+  font-size: 22px;
+  color: navy;
+  text-align: left;
+  
+}
+
+.example3 p {
+  font-family: "EB Garamond";
+  font-size: 22px;
+  color: navy;
+  text-align: left;
+  
+}
+
+
+
+
+
+
+a#toggle-example2 i {
+  font-size: 230px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  text-shadow: 4px 5px 5px #333333;
+  
+}
+
+a#toggle-example3 {
+  color:#84a3e1;
+  
+}
+
+a#toggle-example3 i {
+  font-size: 230px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  text-shadow: 4px 5px 5px #333333;
+  
+}
+
+ 
+
+
+ svg {
+    margin-top: 10px;
+    margin-bottom: 20px;
+ }
+
+ .zigzag line {
+    stroke: #0A47C3;
+    stroke-width: 3;
+
+ }
+ 
+  #menu h2 {
+    padding-top: 20px;
+    font-family: "Cinzel";
+    color: #0A47C3;
+    font-size: 22px;
+    padding-bottom: 15px;
+    
+ }
+
+ #menu h2 a{
+    font-family: "Cinzel";
+    color: #0A47C3;
+    font-size: 22px;
+
+}
+
+
+#silly h3 {
+    font-family: "Cinzel";
+    color: #0A47C3;
+    display: inline;
+    vertical-align: bottom;
+    text-align: center;
+}
+
+#silly.fi-social-github {
+   font-size: 26px
+}
+
+#silly.fi-social-linkedin {
+   font-size: 26px
+}
+
+
+.full-width {
+  	max-width: 500px;
+
+
+  }
